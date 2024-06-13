@@ -6,6 +6,6 @@ public class Sample_classForJUnitTest {
 
     public static void main(String args[]){
         Sample_classForJUnitTest a=new Sample_classForJUnitTest();
-        System.out.println(a.add(2,4));
+        System.out.println(a.add(2,3));
     }
 }

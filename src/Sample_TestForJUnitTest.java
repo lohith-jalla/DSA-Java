@@ -14,4 +14,10 @@ public class Sample_TestForJUnitTest {
         var a=new Sample_classForJUnitTest();
         assertEquals(6,a.add(3,3));
     }
+
+    @Test
+    public void negativeThreeplusfiveEqualsTwo(){
+        var a=new Sample_classForJUnitTest();
+        assertTrue(a.add(-3,5)==2);
+    }
 }

@@ -50,6 +50,7 @@ public class OBST {
             }
             System.out.println();
         }
+        sc.close();
     }
 
     static int cost(int i,int j,int[] freq){

@@ -43,6 +43,7 @@ public class Main {
             i++;
         }
         System.out.printf("max pro: "+sum);
+        sc.close();
     }
 
     static int max(double[] pwt){

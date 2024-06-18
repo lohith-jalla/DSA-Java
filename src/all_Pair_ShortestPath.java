@@ -31,5 +31,6 @@ public class all_Pair_ShortestPath {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

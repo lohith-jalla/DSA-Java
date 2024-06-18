@@ -24,6 +24,7 @@ public class GraphColoring {
         } else {
             System.out.println("No solution exists.");
         }
+        sc.close();
     }
 
     static boolean graphcolor(int v, int m, int[][] graph, int[] colors) {

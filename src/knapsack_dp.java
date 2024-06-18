@@ -30,5 +30,6 @@ public class knapsack_dp {
         }
 
         System.out.print("Max profit is: "+v[n][w]);
+        sc.close();
     }
 }

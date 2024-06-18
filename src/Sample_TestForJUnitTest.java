@@ -6,7 +6,7 @@ public class Sample_TestForJUnitTest {
     @Test
     public void twoPlusTwoEqualsfour(){
         var a=new Sample_classForJUnitTest();
-        assertEquals(4,a.add(2,2));
+        assertEquals(0,a.add(2,2));
     }
 
     @Test
@@ -20,4 +20,6 @@ public class Sample_TestForJUnitTest {
         var a=new Sample_classForJUnitTest();
         assertTrue(a.add(-3,5)==2);
     }
+
+    @Test
 }
